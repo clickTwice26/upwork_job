@@ -6,22 +6,22 @@ export default function HeroSection() {
   return (
     <div style={{ fontFamily: 'Raleway, sans-serif' }} className="relative min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white border-b border-neutral-200 px-6 lg:px-12 py-4">
+      <nav className="bg-white px-6 lg:px-12 py-5">
         <div className="max-w-[1400px] mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 12L20 4L32 12V28L20 36L8 28V12Z" fill="#1565D8"/>
               <path d="M14 16L20 12L26 16V24L20 28L14 24V16Z" fill="#FF8C42"/>
             </svg>
-            <div className="text-[28px] font-bold leading-none">
+            <div className="text-[24px] font-bold leading-none">
               <span className="text-[#1565D8]">Skye</span>
               <span className="text-[#FF8C42]">Ed</span>
             </div>
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden lg:flex items-center gap-8 text-[14px] font-semibold">
+          <div className="hidden lg:flex items-center gap-7 text-[13px] font-bold">
             <a href="#" className="text-[#FF8C42] hover:text-[#FF8C42] transition-colors">
               DASHBOARD
             </a>
@@ -59,14 +59,14 @@ export default function HeroSection() {
 
           {/* Right Side - Language & Login */}
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 text-[#1565D8] hover:text-[#0D47A1] transition-colors text-sm font-semibold">
+            <button className="flex items-center gap-2 text-[#1565D8] hover:text-[#0D47A1] transition-colors text-sm font-semibold border border-gray-300 rounded-md px-3 py-2">
               <span className="text-xl">🇺🇸</span>
               <span>EN</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
-            <button className="bg-[#1565D8] text-white px-7 py-2.5 rounded-lg font-bold text-sm hover:bg-[#0D47A1] transition-colors flex items-center gap-2">
+            <button className="bg-[#1565D8] text-white px-6 py-2.5 rounded-md font-bold text-[13px] hover:bg-[#0D47A1] transition-colors flex items-center gap-2">
               LOG IN
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
