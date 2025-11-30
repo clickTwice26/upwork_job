@@ -1,7 +1,6 @@
 'use client';
 
 import { BookOpen, GraduationCap, Sparkles } from 'lucide-react';
-import { Raleway } from 'fontsource-raleway';
 
 export default function HeroSection() {
   return (
