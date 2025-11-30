@@ -125,7 +125,7 @@ export default function HeroSection() {
               {/* 16+ AP Courses */}
               <div className="text-center">
                 <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
-                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none">16+</div>
+                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none" style={{fontFamily: 'Nexa, sans-serif'}}>16+</div>
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">AP COURSES</div>
               </div>
@@ -133,7 +133,7 @@ export default function HeroSection() {
               {/* 4.2 Score Gain */}
               <div className="text-center">
                 <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
-                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none">4.2</div>
+                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none" style={{fontFamily: 'Nexa, sans-serif'}}>4.2</div>
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">SCORE GAIN</div>
               </div>
@@ -149,7 +149,7 @@ export default function HeroSection() {
               {/* 100 Tutors */}
               <div className="text-center">
                 <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
-                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none">100</div>
+                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none" style={{fontFamily: 'Nexa, sans-serif'}}>100</div>
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">TUTORS</div>
               </div>
