@@ -88,7 +88,7 @@ export default function HeroSection() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 pt-24 pb-12 px-6 lg:px-12">
+        <div className="relative z-10 pt-32 pb-20 px-6 lg:px-12">
           <div className="max-w-[1400px] mx-auto text-center">
             <h1 className="text-[52px] lg:text-[64px] leading-[1.15] font-bold mb-6 text-white drop-shadow-lg">
               Step Into
@@ -106,7 +106,7 @@ export default function HeroSection() {
                 <BookOpen className="w-5 h-5" />
                 BROWSE AP COURSES
               </button>
-              <button className="bg-white text-neutral-800 px-8 py-3.5 rounded-md font-bold text-[14px] hover:bg-gray-50 transition-all shadow-lg hover:shadow-xl flex items-center gap-2 uppercase tracking-wide">
+              <button className="bg-transparent border-2 border-white text-white px-8 py-3.5 rounded-md font-bold text-[14px] hover:bg-white hover:text-neutral-800 transition-all shadow-lg hover:shadow-xl flex items-center gap-2 uppercase tracking-wide">
                 VIEW PLANS
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -118,48 +118,48 @@ export default function HeroSection() {
       </div>
 
       {/* Stats Cards - Overlapping Hero */}
-      <div className="relative z-20 -mt-20 px-6 lg:px-12 pb-20">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="bg-white rounded-2xl shadow-2xl p-8">
+      <div className="relative z-20 -mt-24 px-6 lg:px-12 pb-20">
+        <div className="max-w-[1100px] mx-auto">
+          <div className="bg-white rounded-3xl shadow-2xl px-12 py-10">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8">
               {/* 16+ AP Courses */}
               <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-xl p-4 mb-3 inline-block">
-                  <div className="text-[#FF8C42] text-[40px] font-bold leading-none">16+</div>
+                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
+                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none">16+</div>
                 </div>
-                <div className="text-neutral-700 text-[13px] font-bold uppercase tracking-wide">AP COURSES</div>
+                <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">AP COURSES</div>
               </div>
 
               {/* 4.2 Score Gain */}
               <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-xl p-4 mb-3 inline-block">
-                  <div className="text-[#FF8C42] text-[40px] font-bold leading-none">4.2</div>
+                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
+                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none">4.2</div>
                 </div>
-                <div className="text-neutral-700 text-[13px] font-bold uppercase tracking-wide">SCORE GAIN</div>
+                <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">SCORE GAIN</div>
               </div>
 
               {/* IVY LEAGUE */}
               <div className="text-center">
-                <div className="bg-[#1565D8] rounded-xl p-4 mb-3 inline-block">
-                  <GraduationCap className="w-12 h-12 text-white mx-auto" strokeWidth={2.5} />
+                <div className="bg-[#1565D8] rounded-2xl px-6 py-5 mb-3 inline-block">
+                  <GraduationCap className="w-14 h-14 text-white mx-auto" strokeWidth={2} />
                 </div>
-                <div className="text-neutral-700 text-[13px] font-bold uppercase tracking-wide">IVY LEAGUE</div>
+                <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">IVY LEAGUE</div>
               </div>
 
               {/* 100 Tutors */}
               <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-xl p-4 mb-3 inline-block">
-                  <div className="text-[#FF8C42] text-[40px] font-bold leading-none">100</div>
+                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
+                  <div className="text-[#FF8C42] text-[48px] font-bold leading-none">100</div>
                 </div>
-                <div className="text-neutral-700 text-[13px] font-bold uppercase tracking-wide">TUTORS</div>
+                <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">TUTORS</div>
               </div>
 
               {/* AI + HUMAN */}
               <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-xl p-4 mb-3 inline-block">
-                  <Sparkles className="w-12 h-12 text-[#FF8C42] mx-auto" strokeWidth={2.5} />
+                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
+                  <Sparkles className="w-14 h-14 text-[#FF8C42] mx-auto" strokeWidth={2} />
                 </div>
-                <div className="text-neutral-700 text-[13px] font-bold uppercase tracking-wide">AI + HUMAN</div>
+                <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">AI + HUMAN</div>
               </div>
             </div>
           </div>
