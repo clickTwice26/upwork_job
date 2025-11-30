@@ -1,10 +1,11 @@
 'use client';
 
 import { BookOpen, GraduationCap, Sparkles } from 'lucide-react';
+import { Raleway } from 'fontsource-raleway';
 
 export default function HeroSection() {
   return (
-    <div className="relative min-h-screen bg-white">
+    <div style={{ fontFamily: 'Raleway, sans-serif' }} className="relative min-h-screen bg-white">
       {/* Navigation */}
       <nav className="bg-white border-b border-neutral-200 px-6 lg:px-12 py-4">
         <div className="max-w-[1400px] mx-auto flex items-center justify-between">
@@ -81,43 +82,31 @@ export default function HeroSection() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-cover bg-center" style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&h=900&fit=crop&q=80)',
+            backgroundImage: 'url(/image.png)',
           }} />
-          <div className="absolute inset-0 bg-black/10" />
-        </div>
-
-        {/* Avatar Badge */}
-        <div className="absolute top-[45%] right-[20%] z-20 hidden lg:block">
-          <div className="relative">
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 border-4 border-white shadow-xl flex items-center justify-center overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center" style={{
-                backgroundImage: 'url(https://i.pravatar.cc/150?img=33)'
-              }} />
-            </div>
-            <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-green-500 rounded-full border-2 border-white"></div>
-          </div>
+          <div className="absolute inset-0 bg-black/20" />
         </div>
 
         {/* Hero Content */}
         <div className="relative z-10 pt-24 pb-12 px-6 lg:px-12">
           <div className="max-w-[1400px] mx-auto text-center">
-            <h1 className="text-[56px] lg:text-[72px] leading-[1.1] font-bold mb-6 text-white">
+            <h1 className="text-[52px] lg:text-[64px] leading-[1.15] font-bold mb-6 text-white drop-shadow-lg">
               Step Into
               <br />
               <span className="text-[#FF8C42]">Your AP Greatness</span>
             </h1>
             
-            <p className="text-white text-[18px] leading-relaxed mb-10 max-w-[720px] mx-auto font-medium">
+            <p className="text-white text-[16px] leading-relaxed mb-10 max-w-[680px] mx-auto font-normal drop-shadow-md">
               Master any AP exam with our structured 32-session curriculum. Choose Skye Pilot AI, Skye Mentor live tutoring, or combine both for unstoppable results.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap justify-center gap-4 mb-16">
-              <button className="bg-[#1565D8] text-white px-8 py-4 rounded-lg font-bold text-[15px] hover:bg-[#0D47A1] transition-all shadow-xl hover:shadow-2xl flex items-center gap-3 uppercase tracking-wide">
+              <button className="bg-[#1565D8] text-white px-8 py-3.5 rounded-md font-bold text-[14px] hover:bg-[#0D47A1] transition-all shadow-lg hover:shadow-xl flex items-center gap-2 uppercase tracking-wide">
                 <BookOpen className="w-5 h-5" />
                 BROWSE AP COURSES
               </button>
-              <button className="bg-white/95 backdrop-blur-sm text-neutral-700 px-8 py-4 rounded-lg font-bold text-[15px] border-2 border-white hover:bg-white transition-all shadow-xl hover:shadow-2xl flex items-center gap-3 uppercase tracking-wide">
+              <button className="bg-white text-neutral-800 px-8 py-3.5 rounded-md font-bold text-[14px] hover:bg-gray-50 transition-all shadow-lg hover:shadow-xl flex items-center gap-2 uppercase tracking-wide">
                 VIEW PLANS
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
