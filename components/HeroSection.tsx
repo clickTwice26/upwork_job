@@ -123,41 +123,41 @@ export default function HeroSection() {
           <div className="bg-white rounded-3xl shadow-2xl px-12 py-10">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8">
               {/* 16+ AP Courses */}
-              <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
+              <div className="flex flex-col items-center">
+                <div className="bg-[#FFF3E0] rounded-2xl px-8 py-6 mb-3 flex items-center justify-center w-[140px] h-[100px]">
                   <div className="text-[#FF8C42] text-[48px] font-bold leading-none" style={{fontFamily: 'Nexa, sans-serif'}}>16+</div>
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">AP COURSES</div>
               </div>
 
               {/* 4.2 Score Gain */}
-              <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
+              <div className="flex flex-col items-center">
+                <div className="bg-[#FFF3E0] rounded-2xl px-8 py-6 mb-3 flex items-center justify-center w-[140px] h-[100px]">
                   <div className="text-[#FF8C42] text-[48px] font-bold leading-none" style={{fontFamily: 'Nexa, sans-serif'}}>4.2</div>
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">SCORE GAIN</div>
               </div>
 
               {/* IVY LEAGUE */}
-              <div className="text-center">
-                <div className="bg-[#1565D8] rounded-2xl px-6 py-5 mb-3 inline-block">
-                  <GraduationCap className="w-14 h-14 text-white mx-auto" strokeWidth={2} />
+              <div className="flex flex-col items-center">
+                <div className="bg-[#1565D8] rounded-2xl px-8 py-6 mb-3 flex items-center justify-center w-[140px] h-[100px]">
+                  <GraduationCap className="w-14 h-14 text-white" strokeWidth={2} />
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">IVY LEAGUE</div>
               </div>
 
               {/* 100 Tutors */}
-              <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
+              <div className="flex flex-col items-center">
+                <div className="bg-[#FFF3E0] rounded-2xl px-8 py-6 mb-3 flex items-center justify-center w-[140px] h-[100px]">
                   <div className="text-[#FF8C42] text-[48px] font-bold leading-none" style={{fontFamily: 'Nexa, sans-serif'}}>100</div>
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">TUTORS</div>
               </div>
 
               {/* AI + HUMAN */}
-              <div className="text-center">
-                <div className="bg-[#FFF3E0] rounded-2xl px-6 py-5 mb-3 inline-block">
-                  <Sparkles className="w-14 h-14 text-[#FF8C42] mx-auto" strokeWidth={2} />
+              <div className="flex flex-col items-center">
+                <div className="bg-[#FFF3E0] rounded-2xl px-8 py-6 mb-3 flex items-center justify-center w-[140px] h-[100px]">
+                  <Sparkles className="w-14 h-14 text-[#FF8C42]" strokeWidth={2} />
                 </div>
                 <div className="text-neutral-600 text-[12px] font-bold uppercase tracking-wider">AI + HUMAN</div>
               </div>
